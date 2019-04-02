@@ -1,0 +1,40 @@
+body{
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+header img{
+    display: block;
+    margin: 40px auto 0;
+}
+.services{
+    float: left;
+    width: 29%;
+    margin: 1%;
+    padding: 1%;
+}
+section img{
+    margin-top: 10px;
+    cursor: pointer;
+}
+section a{
+    display: block;
+    text-align: center;
+}
+.main{
+    margin-top: 70px;
+}
+@media screen and (max-width: 480px){
+    .services{
+        width: 46%;
+        margin: 1%;
+        padding: 1%;
+    }
+}
+@media screen and (max-width: 320px){
+    .services{
+        width: 96%;
+        margin: 1%;
+        padding: 1%;
+    }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <div>
+        <table style="width: 100%">
+            <tr>
+                <th>Name</th>
+                <th>User Id</th>
+                <th>Vehicle Name</th>
+                <th>Date</th>
+                <th>View Services</th>
+            </tr>
+            <tr>
+              <td>Vishal</td>
+              <td>347</td>
+              <td>GJ-01-KE-9915</td>
+              <td>04-04-2016</td>
+              <td><button onclick="openModal()" id="modalBtn">View</button></td>  
+            </tr> 
+            <tr>
+                <td>Gaurang</td>
+                <td>374</td>
+                <td>GJ-06-KE-8679</td>
+                <td>06-04-2007</td>
+                <td><button onclick="openModal()" id="modalBtn">View</button></td>  
+            </tr>
+            <tr>
+                <td>pritish</td>
+                <td>342</td>
+                <td>GJ-06-KE-5632</td>
+                <td>22-03-2019</td>
+                <td><button onclick="openModal()" id="modalBtn">View</button></td>  
+            </tr>
+            <tr>
+                <td>atul</td>
+                <td>335</td>
+                <td>GJ-06-KE-5857</td>
+                <td>31-01-2018</td>
+                <td><button onclick="openModal()" id="modalBtn">View</button></td>  
+            </tr>     
+        </table>
+
+        <div class="modal" id="simpleModal">
+            <div class="modal-content">
+                <span id="closeBtn">&times;</span>
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <script src="table.js"></script>
+</body>
+</html>
